@@ -8,7 +8,7 @@
 
 #import "QiniuUploader.h"
 
-#define kQiniuUploadURL @"https://upload.qbox.me"
+#define kQiniuUploadURL @"up-z2.qiniup.com"
 #define kQiniuTaskKey @"qiniuTaskKey"
 
 typedef void (^UploadOneFileSucceededHandler)(NSInteger index, NSDictionary * _Nonnull info);
